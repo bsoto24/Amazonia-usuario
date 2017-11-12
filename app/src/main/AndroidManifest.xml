@@ -13,6 +13,11 @@
         <activity
             android:name=".TicketeraActivity"
             android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".auth.LoginActivity"/>
+        <activity android:name=".auth.LoadActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
